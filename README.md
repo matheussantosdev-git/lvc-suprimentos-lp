@@ -1,74 +1,56 @@
-# React + TypeScript + Vite
+# 🏢 LVC Suprimentos – Landing Page Institucional
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**LVC Suprimentos** é uma empresa especializada em **abastecimento corporativo e industrial**, oferecendo soluções completas em **fornecimento de produtos, pesquisa de fornecedores, cotação e entrega garantida**.
 
-Currently, two official plugins are available:
+Este projeto é a **landing page institucional** desenvolvida para apresentar a empresa, seus serviços, marcas parceiras e canais de contato de forma moderna, responsiva e otimizada para SEO.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Tecnologias Utilizadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- ⚛️ **React + TypeScript + Vite** – estrutura moderna, leve e com HMR
+- 🎨 **Tailwind CSS** – para estilização rápida, responsiva e padronizada
+- 🧭 **React Router DOM** – navegação entre as páginas (Home / Sobre Nós)
+- 💬 **React Icons** – ícones de interface padronizados
+- 🗺️ **Google Maps Embed** – integração com mapa da localização da empresa
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 📄 Estrutura de Páginas
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- **🏠 Home**  
+  Apresenta os principais produtos, marcas e diferenciais competitivos da empresa.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- **ℹ️ Sobre Nós**  
+  Mostra a história da LVC Suprimentos, seus valores e o foco em qualidade, experiência e parcerias duradouras.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- **🤝 Marcas e Clientes**  
+  Destaque das principais marcas trabalhadas e empresas parceiras.
+
+- **📞 Contato**  
+  Informações de e-mail, telefone, WhatsApp e localização via Google Maps.
+
+---
+
+## 💡 Objetivo do Projeto
+
+O objetivo é **fortalecer a presença digital da LVC Suprimentos**, transmitindo **credibilidade, clareza e profissionalismo**, além de **facilitar o primeiro contato comercial com novos clientes** por meio de um site responsivo, otimizado e de carregamento rápido.
+
+---
+
+## 🧰 Como Rodar o Projeto Localmente
+
+```bash
+# Clone o repositório
+git clone https://github.com/seu-usuario/lvc-suprimentos-lp.git
+
+# Acesse a pasta
+cd lvc-suprimentos-lp
+
+# Instale as dependências
+npm install
+
+# Rode o servidor de desenvolvimento
+npm run dev
+
 ```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-# lvc-suprimentos-lp
