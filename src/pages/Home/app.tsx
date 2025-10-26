@@ -46,7 +46,7 @@ function Home() {
 
         <div>
           <img
-            src="../src/assets/menino.png"
+            src="../../src/assets/menino.png"
             alt="Produtos ou logotipos"
             className="w-full h-full opacity-80"
           />
