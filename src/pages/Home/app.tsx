@@ -2,6 +2,7 @@ import BgImage from "../../assets/image.png";
 import { FaWhatsapp } from "react-icons/fa";
 import Produtos from "../../components/Produtos";
 import Marcas from "../../components/Marcas";
+import imgEntrega from "../../assets/menino.png";
 
 function Home() {
   return (
@@ -45,11 +46,7 @@ function Home() {
         </div>
 
         <div>
-          <img
-            src="../../src/assets/menino.png"
-            alt="Produtos ou logotipos"
-            className="w-full h-full opacity-80"
-          />
+          <img src={imgEntrega} alt="Produtos ou logotipos" className="w-full h-full opacity-80" />
         </div>
       </div>
 
