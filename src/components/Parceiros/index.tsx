@@ -1,6 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper/modules";
-import "swiper/css";
+import "swiper/swiper.css";
 
 function Parceiros() {
   const marcas = Array.from({ length: 6 }, (_, i) => ({
