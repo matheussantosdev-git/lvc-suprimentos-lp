@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 
 function Layout() {
   return (
-    <div className="flex flex-col min-h-screen bg-[#0e0e0e] text-white font-sans">
+    <div className="flex flex-col min-h-screen bg-[#FFFFFF] text-white font-sans">
       <Navbar />
       <main className="flex-grow mt-24">
         <Outlet />

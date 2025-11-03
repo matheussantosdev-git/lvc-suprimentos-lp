@@ -8,11 +8,11 @@ function Marcas() {
   }));
 
   return (
-    <section id="marcas" className="py-20 bg-[#0e0e0e] text-center text-white">
-      <h3 className="text-3xl md:text-5xl font-bold mb-10 text-[#0077C8]">
+    <section id="marcas" className="py-20 bg-[#4A4A4A] text-center text-white">
+      <h3 className="text-3xl md:text-5xl font-bold mb-10 text-[#FFFFFF]">
         Marcas que trabalhamos
       </h3>
-      <p className="text-gray-300 text-xl md:text-2xl mb-8">
+      <p className="text-[#FFFFFF] text-xl md:text-2xl mb-8">
         Trabalhamos com as principais marcas e tecnologias do mercado.
       </p>
       <div className=" mx-auto px-6">

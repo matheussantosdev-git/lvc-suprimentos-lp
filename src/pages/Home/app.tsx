@@ -6,10 +6,10 @@ import imgEntrega from "../../assets/menino.png";
 
 function Home() {
   return (
-    <div className="flex flex-col min-h-screen bg-[#0e0e0e] text-white font-sans">
+    <div className="flex flex-col min-h-screen bg-[#FFFFFF] text-white font-sans">
       <header
         id="home"
-        className="h-[70vh] flex flex-col justify-center items-center text-center bg-cover bg-center relative"
+        className="h-[50vh] flex flex-col justify-center items-center text-center bg-cover bg-center relative"
         style={{
           backgroundImage: `url(${BgImage})`,
         }}
@@ -34,7 +34,7 @@ function Home() {
 
       <Produtos />
 
-      <div className="h-[50vh] flex flex-col md:flex-row items-center text-left bg-gradient-to-r justify-around from-[#0b1d4a] via-[#2d4a83] to-[#0e0d0d] text-white overflow-hidden p-8">
+      <div className="h-[40vh] flex flex-col md:flex-row items-center text-left bg-gradient-to-r justify-around from-[#111] via-[#00ABF9] to-[#111] text-white overflow-hidden p-8">
         <div className="max-w-xl space-y-4 md:w-1/2">
           <h2 className="text-4xl md:text-6xl font-extrabold mb-4">
             Os melhores <span className="text-[#00ABF9]">produtos</span> e marcas para o seu <br />
@@ -52,16 +52,16 @@ function Home() {
 
       <Marcas />
 
-      <section id="contato" className="py-20 bg-black text-center text-white px-6">
-        <h3 className="text-3xl md:text-5xl font-bold mb-10 text-[#0077C8]">Entre em contato</h3>
-        <p className="text-gray-300 text-xl md:text-2xl mb-8">
+      <section id="contato" className="py-20 bg-[] text-center text-white px-6">
+        <h3 className="text-3xl md:text-5xl font-bold mb-10 text-[#111]">Entre em contato</h3>
+        <p className="text-[#111] text-xl md:text-2xl mb-8">
           Fale conosco e descubra como podemos ajudar seu negócio.
         </p>
 
         <div className="grid md:grid-cols-3 gap-10 max-w-6xl mx-auto text-left">
-          <div className="bg-[#111] p-6 rounded-xl shadow-lg border border-[#00ABF9]/20">
-            <h4 className="text-2xl font-semibold text-[#0077C8]  mb-3">Vendas</h4>
-            <ul className="space-y-2 text-gray-300">
+          <div className="bg-[#4A4A4A] p-6 rounded-xl shadow-lg border border-[#00ABF9]/20">
+            <h4 className="text-2xl font-semibold text-[#FFFFFF]  mb-3">Vendas</h4>
+            <ul className="space-y-2 text-#FFFFFF-300">
               <li>
                 <a
                   href="mailto:vendas@lvcsuprimentos.com.br"
@@ -97,9 +97,24 @@ function Home() {
             </ul>
           </div>
 
-          <div className="bg-[#111] p-6 rounded-xl shadow-lg border border-[#00ABF9]/20">
-            <h4 className="text-2xl font-semibold text-[#0077C8] mb-3">Administrativo</h4>
-            <ul className="space-y-2 text-gray-300">
+       <div className="bg-[#4A4A4A] p-6 rounded-xl shadow-lg border border-[#00ABF9]/20">
+            <h4 className="text-2xl font-semibold text-[#FFFFFF] mb-3">Compras</h4>
+            <ul className="space-y-2 text-#FFFFFF-300">
+              <li>
+                <a
+                  href="mailto:compras@lvcsuprimentos.com.br"
+                  className="hover:text-[#00ABF9] transition"
+                >
+                  compras@lvcsuprimentos.com.br
+                </a>
+              </li>
+            </ul>
+          </div>
+
+
+          <div className="bg-[#4A4A4A] p-6 rounded-xl shadow-lg border border-[#00ABF9]/20">
+            <h4 className="text-2xl font-semibold text-[#FFFFFF] mb-3">Administrativo</h4>
+            <ul className="space-y-2 text-#FFFFFF-300">
               <li>
                 <a
                   href="mailto:adm@lvcsuprimentos.com.br"
@@ -111,13 +126,14 @@ function Home() {
             </ul>
           </div>
 
-          <div className="bg-[#111] p-6 rounded-xl shadow-lg border border-[#00ABF9]/20">
-            <h4 className="text-2xl font-semibold text-[#0077C8] mb-3">Telefone</h4>
-            <p className="text-gray-300 leading-relaxed">
+          <div className="bg-[#4A4A4A] p-6 rounded-xl shadow-lg border border-[#0077C8]/20">
+            <h4 className="text-2xl font-semibold text-[#FFFFFF] mb-3">Telefone</h4>
+            <p className="text-#FFFFFF-300 leading-relaxed">
               (55) 11 5530-0510 <br />
               (55) 11 5530-0511
             </p>
           </div>
+          
         </div>
 
         <div className="mt-16 max-w-80 mx-auto">

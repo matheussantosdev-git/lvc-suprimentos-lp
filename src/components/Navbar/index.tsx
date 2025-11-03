@@ -9,13 +9,13 @@ function Navbar() {
   const isSobrePage = location.pathname === "/sobre";
 
   return (
-    <nav className="fixed w-full z-50 bg-black/60 backdrop-blur-sm text-white">
-      <div className="flex flex-col md:flex-row items-center md:px-28 w-full text-center md:text-left">
+    <nav className="fixed w-full z-50 bg-black backdrop-blur-sm text-white">
+      <div className="flex flex-col md:flex-row items-center md:px-40 w-full text-center md:text-left">
         <a href="/#home">
-          <img src={logo} className="w-40 md:w-43" alt="Logo" />
+          <img src={logo} className="w-40 md:w-40" alt="Logo" />
         </a>
 
-        <ul className="hidden md:flex gap-8 text-gray-200 text-xl font-medium mx-auto">
+        <ul className="hidden md:flex gap-30 text-gray-100 text-x1 font- mx-auto">
           <li>
             <a href="/#home" className="hover:text-[#00ABF9] transition">
               Home
@@ -39,7 +39,7 @@ function Navbar() {
         <div className="hidden md:block">
           <a
             href="/#contato"
-            className="bg-[#0077C8] text-black px-5 py-2 rounded-md font-semibold hover:bg-[#00ABF9] transition"
+            className="bg-[#0077C8] text-black px-10 py-5 rounded-md font-semibold hover:bg-[#00ABF9] transition"
           >
             Contato
           </a>
