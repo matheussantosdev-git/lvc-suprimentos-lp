@@ -1,0 +1,290 @@
+{
+  "materiais-eletricos": [
+    {
+      "id": 1,
+      "name": "Cabo Flexível 2,5mm",
+      "image": "/produtos/materiais-eletricos/BATERIA.webp",
+      "description": "Cabo de alta resistência para instalações elétricas."
+    },
+    {
+      "id": 2,
+      "name": "Disjuntor 32A",
+      "image": "/produtos/materiais-eletricos/CAPACITOR.webp",
+      "description": "Proteção eficaz contra sobrecarga."
+    },
+    {
+      "id": 3,
+      "name": "Tomada Industrial IP44",
+      "image": "/produtos/materiais-eletricos/DISJUNTOR.webp",
+      "description": "Alta durabilidade para ambientes industriais."
+    },
+    {
+      "id": 4,
+      "name": "Interruptor Simples",
+      "image": "/produtos/materiais-eletricos/ELETROCALHA.jpg",
+      "description": "Acabamento moderno para ambientes residenciais."
+    },
+    {
+      "id": 5,
+      "name": "Eletroduto PVC",
+      "image": "/produtos/materiais-eletricos/FUSIVEL.webp",
+      "description": "Ideal para organização de fiações elétricas."
+    }
+  ],
+  "rede-wireless": [
+    {
+      "id": 1,
+      "name": "Antena Wireless",
+      "image": "/produtos/rede-wireless/ANTENA.webp",
+      "description": "Antena de alta performance para reforço de sinal Wi-Fi."
+    },
+    {
+      "id": 2,
+      "name": "Patch Cord Cat5/Cat6",
+      "image": "/produtos/rede-wireless/PATCH CORD.webp",
+      "description": "Cabo de rede de alta qualidade para conexões estáveis."
+    },
+    {
+      "id": 3,
+      "name": "Conector RJ45",
+      "image": "/produtos/rede-wireless/RJ45.jpg",
+      "description": "Conectores RJ45 para montagem de cabos de rede."
+    },
+    {
+      "id": 4,
+      "name": "Roteador Wireless",
+      "image": "/produtos/rede-wireless/ROTEADOR.png",
+      "description": "Roteador potente para redes domésticas e corporativas."
+    },
+    {
+      "id": 5,
+      "name": "Switch de Rede",
+      "image": "/produtos/rede-wireless/SWITCH.jpg",
+      "description": "Switch confiável para distribuição de rede."
+    }
+  ],
+  "iluminacao": [
+    {
+      "id": 1,
+      "name": "Lâmpada LED",
+      "image": "/produtos/iluminacao/LAMPADA.webp",
+      "description": "Lâmpada LED econômica e de longa duração."
+    },
+    {
+      "id": 2,
+      "name": "Lanterna Recarregável",
+      "image": "/produtos/iluminacao/LANTERNA.webp",
+      "description": "Lanterna portátil com alta intensidade de luz."
+    },
+    {
+      "id": 3,
+      "name": "Luminária de Embutir",
+      "image": "/produtos/iluminacao/LUMINARIA.jpg",
+      "description": "Luminária ideal para ambientes residenciais e comerciais."
+    },
+    {
+      "id": 4,
+      "name": "Trilho Eletrificado",
+      "image": "/produtos/iluminacao/TRILHO ELETRIFICADO.jpg",
+      "description": "Sistema de iluminação moderno com spots direcionáveis."
+    }
+  ],
+  "ferramentas": [
+    {
+      "id": 1,
+      "name": "Alicate Universal",
+      "image": "/produtos/ferramentas/ALICATE.jpg",
+      "description": "Alicate universal resistente e ideal para diversos tipos de trabalho."
+    },
+    {
+      "id": 2,
+      "name": "Carrinho de Carga",
+      "image": "/produtos/ferramentas/CARRINHO-ARMAZEM.webp",
+      "description": "Carrinho reforçado para transporte de materiais pesados."
+    },
+    {
+      "id": 3,
+      "name": "Furadeira Elétrica",
+      "image": "/produtos/ferramentas/FURADEIRA.jpeg",
+      "description": "Furadeira potente, ideal para perfurações em madeira, metal e concreto."
+    },
+    {
+      "id": 4,
+      "name": "Guincho Hidráulico",
+      "image": "/produtos/ferramentas/GUINCHO-HIDRAULICO.webp",
+      "description": "Guincho hidráulico de alta capacidade para uso industrial."
+    },
+    {
+      "id": 5,
+      "name": "Martelo de Aço",
+      "image": "/produtos/ferramentas/MARTELO.jpg",
+      "description": "Martelo durável e balanceado para trabalhos gerais."
+    }
+  ],
+  "escritorio": [
+    {
+      "id": 1,
+      "name": "Agenda Executiva",
+      "image": "/produtos/escritorio/AGENDA.jpg",
+      "description": "Agenda prática e resistente, ideal para organização diária."
+    },
+    {
+      "id": 2,
+      "name": "Armário de Escritório",
+      "image": "/produtos/escritorio/ARMARIO.webp",
+      "description": "Armário compacto e moderno para armazenamento de documentos."
+    },
+    {
+      "id": 3,
+      "name": "Cadeira Ergonômica",
+      "image": "/produtos/escritorio/CADEIRA.jpg",
+      "description": "Cadeira ergonômica confortável, ideal para longas horas de trabalho."
+    },
+    {
+      "id": 4,
+      "name": "Caneta Esferográfica",
+      "image": "/produtos/escritorio/CANETA.webp",
+      "description": "Caneta com escrita suave para uso diário."
+    },
+    {
+      "id": 5,
+      "name": "Papel Sulfite A4",
+      "image": "/produtos/escritorio/SULFITE.jpg",
+      "description": "Papel sulfite de alta qualidade para impressões e cópias."
+    }
+  ],
+  "automacao": [
+    {
+      "id": 1,
+      "name": "Botoeira de Comando",
+      "image": "/produtos/automacao/BOTOEIRA.webp",
+      "description": "Botoeira industrial para acionamento seguro."
+    },
+    {
+      "id": 2,
+      "name": "Inversor de Frequência",
+      "image": "/produtos/automacao/INVERSOR FREQUENCIA.webp",
+      "description": "Controle eletrônico de velocidade para motores trifásicos."
+    },
+    {
+      "id": 3,
+      "name": "Motor Elétrico",
+      "image": "/produtos/automacao/MOTOR.jpg",
+      "description": "Motor robusto para aplicações industriais."
+    },
+    {
+      "id": 4,
+      "name": "Seccionadora",
+      "image": "/produtos/automacao/SECCIONADORA.jpeg",
+      "description": "Chave seccionadora para proteção e isolamento de circuitos."
+    },
+    {
+      "id": 5,
+      "name": "Temporizador",
+      "image": "/produtos/automacao/TEMPORIZADOR.jpg",
+      "description": "Temporizador industrial para controle preciso."
+    }
+  ],
+  "eletrodomesticos": [
+    {
+      "id": 1,
+      "name": "Fogão",
+      "image": "/produtos/eletrodomesticos/FOGAO.webp",
+      "description": "Fogão moderno e eficiente para cozinhas residenciais."
+    },
+    {
+      "id": 2,
+      "name": "Forno Elétrico",
+      "image": "/produtos/eletrodomesticos/FORNO.webp",
+      "description": "Forno elétrico ideal para assados rápidos e uniformes."
+    },
+    {
+      "id": 3,
+      "name": "Geladeira",
+      "image": "/produtos/eletrodomesticos/GELADEIRA.webp",
+      "description": "Geladeira econômica com amplo espaço interno."
+    },
+    {
+      "id": 4,
+      "name": "Micro-ondas",
+      "image": "/produtos/eletrodomesticos/MICROONDAS.webp",
+      "description": "Micro-ondas prático e rápido para o dia a dia."
+    },
+    {
+      "id": 5,
+      "name": "Televisor",
+      "image": "/produtos/eletrodomesticos/TV.webp",
+      "description": "TV de alta definição para entretenimento completo."
+    }
+  ],
+  "eletroeletronicos": [
+    {
+      "id": 1,
+      "name": "Estabilizador",
+      "image": "/produtos/eletroeletronicos/ESTABILIZADOR.jpg",
+      "description": "Estabilizador de tensão para proteção de equipamentos."
+    },
+    {
+      "id": 2,
+      "name": "HD Externo",
+      "image": "/produtos/eletroeletronicos/HD.jpg",
+      "description": "HD de alta capacidade para armazenamento seguro."
+    },
+    {
+      "id": 3,
+      "name": "Monitor",
+      "image": "/produtos/eletroeletronicos/MONITOR.jpg",
+      "description": "Monitor de imagem com alta resolução para uso profissional."
+    },
+    {
+      "id": 4,
+      "name": "Nobreak",
+      "image": "/produtos/eletroeletronicos/NOBREAK.png",
+      "description": "Nobreak para garantir energia contínua em quedas."
+    },
+    {
+      "id": 5,
+      "name": "Notebook",
+      "image": "/produtos/eletroeletronicos/NOTEBOOK.webp",
+      "description": "Notebook rápido e portátil para estudos e trabalho."
+    },
+    {
+      "id": 6,
+      "name": "Tablet",
+      "image": "/produtos/eletroeletronicos/TABLET.webp",
+      "description": "Tablet versátil para tarefas diárias e entretenimento."
+    }
+  ],
+  "epis-epcs": [
+    {
+      "id": 1,
+      "name": "Bota de Segurança",
+      "image": "/produtos/epis-epcs/BOTA.jpeg",
+      "description": "Bota resistente para proteção em ambientes industriais."
+    },
+    {
+      "id": 2,
+      "name": "Colete Refletivo",
+      "image": "/produtos/epis-epcs/COLETE.jpg",
+      "description": "Colete refletivo ideal para segurança em ambientes externos."
+    },
+    {
+      "id": 3,
+      "name": "Luva de Proteção",
+      "image": "/produtos/epis-epcs/LUVAS.webp",
+      "description": "Luva resistente para manipulação segura de equipamentos."
+    },
+    {
+      "id": 4,
+      "name": "Máscara de Solda",
+      "image": "/produtos/epis-epcs/MASCARA-SOLDA.webp",
+      "description": "Máscara de solda com proteção adequada para operações industriais."
+    },
+    {
+      "id": 5,
+      "name": "Óculos de Proteção",
+      "image": "/produtos/epis-epcs/OCULOS.jpg",
+      "description": "Óculos projetados para proteção contra partículas."
+    }
+  ]
+}

@@ -8,11 +8,12 @@ function Parceiros() {
   }));
 
   return (
-    <section id="clientes" className="py-20 bg-[#0e0e0e] text-center text-white">
-      <h3 className="text-3xl md:text-5xl font-bold mb-10 text-[#0077C8]">
-        Nossos principais clientes
-      </h3>
-      <p className="text-gray-300 text-xl md:text-2xl mb-8">
+    <section
+      id="clientes"
+      className="py-20 text-center text-white bg-gradient-to-br from-treeBlue to-blue-100 rounded-2xl"
+    >
+      <h2 className="text-3xl font-bold text-black mb-8 text-center">Nossos principais clientes</h2>
+      <p className="text-gray-900 text-xl md:text-2xl mb-8">
         Adquirente que fortalecem nosso compromisso com qualidade e confiança
       </p>
       <div className="mx-auto px-6">
@@ -33,7 +34,7 @@ function Parceiros() {
           {marcas.map((marca, i) => (
             <SwiperSlide key={i}>
               <div className="flex justify-center items-center bg-white rounded-lg shadow-md p-4 hover:scale-105 transition-transform duration-300">
-                <img src={marca.img} alt={`Marca ${i + 1}`} className="h-30" />
+                <img src={marca.img} alt={`Marca ${i + 1}`} className="w-32 h-20 object-contain" />
               </div>
             </SwiperSlide>
           ))}

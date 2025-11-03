@@ -8,36 +8,43 @@ function Marcas() {
   }));
 
   return (
-    <section id="marcas" className="py-20 bg-[#4A4A4A] text-center text-white">
-      <h3 className="text-3xl md:text-5xl font-bold mb-10 text-[#FFFFFF]">
-        Marcas que trabalhamos
-      </h3>
-      <p className="text-[#FFFFFF] text-xl md:text-2xl mb-8">
-        Trabalhamos com as principais marcas e tecnologias do mercado.
-      </p>
-      <div className=" mx-auto px-6">
-        <Swiper
-          modules={[Pagination, Autoplay]}
-          spaceBetween={30}
-          slidesPerView={1}
-          breakpoints={{
-            768: { slidesPerView: 2 },
-            1024: { slidesPerView: 3 },
-          }}
-          navigation
-          pagination={{ clickable: true }}
-          autoplay={{ delay: 2500, disableOnInteraction: false }}
-          loop
-          className="pb-12"
-        >
-          {marcas.map((marca, i) => (
-            <SwiperSlide key={i}>
-              <div className="flex justify-center items-center bg-white rounded-lg shadow-md p-4 hover:scale-105 transition-transform duration-300">
-                <img src={marca.img} alt={`Marca ${i + 1}`} className="h-30" />
-              </div>
-            </SwiperSlide>
-          ))}
-        </Swiper>
+    <section id="home">
+      <div className="py-20 mb-16 container mx-auto bg-gradient-to-br from-treeBlue to-blue-100 rounded-2xl">
+        <h2 className="text-3xl font-bold text-black mb-8 text-center">
+          Algumas das marcas que trabalhamos
+        </h2>
+
+        <p className="text-gray-900 text-xl md:text-2xl mb-8 text-center">
+          Trabalhamos com as principais marcas e tecnologias do mercado.
+        </p>
+        <div className=" mx-auto px-6">
+          <Swiper
+            modules={[Pagination, Autoplay]}
+            spaceBetween={30}
+            slidesPerView={1}
+            breakpoints={{
+              768: { slidesPerView: 2 },
+              1024: { slidesPerView: 3 },
+            }}
+            navigation
+            pagination={{ clickable: true }}
+            autoplay={{ delay: 2500, disableOnInteraction: false }}
+            loop
+            className="pb-12"
+          >
+            {marcas.map((marca, i) => (
+              <SwiperSlide key={i}>
+                <div className="flex justify-center items-center bg-white rounded-lg shadow-md p-4 hover:scale-105 transition-transform duration-300">
+                  <img
+                    src={marca.img}
+                    alt={`Marca ${i + 1}`}
+                    className="w-32 h-20 object-contain"
+                  />
+                </div>
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        </div>
       </div>
     </section>
   );

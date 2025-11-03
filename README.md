@@ -41,8 +41,6 @@ O objetivo é **fortalecer a presença digital da LVC Suprimentos**, transmitind
 ## 🧰 Como Rodar o Projeto Localmente
 
 ```bash
-# Clone o repositório
-git clone https://github.com/seu-usuario/lvc-suprimentos-lp.git
 
 # Acesse a pasta
 cd lvc-suprimentos-lp
